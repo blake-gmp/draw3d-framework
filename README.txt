@@ -1,5 +1,5 @@
 /* Dodanie skryptu */
-config.xml -> <import src="draw3d-framework/scripts.xml" />
+config.xml -> <import src="draws3d-scripts-main/scripts.xml" />
 
 /* Info */
 + Autor: heisenberg
