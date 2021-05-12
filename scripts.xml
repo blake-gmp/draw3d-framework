@@ -1,0 +1,14 @@
+<server>
+    <!-- shared -->
+	<script src="draws-shared.nut" type="client" />
+	<script src="draws-shared.nut" type="server" />
+
+	<!-- clientscripts -->
+	<script src="draws-client-text.nut" type="client" />
+	<script src="draws-client.nut" type="client" />
+	
+	<!-- serverscripts -->
+	<script src="draws-server-init.nut" type="server" />
+	<script src="draws-server.nut" type="server" />
+	<script src="draws-server-cmd.nut" type="server" />
+</server>
