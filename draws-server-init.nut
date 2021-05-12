@@ -72,7 +72,7 @@ addEventHandler("onPlayerJoin", function(pid)
   if(EnabledDraws) {
   
    foreach(val in draws)
-    if(val.getRemove())
+    if(!(val.getRemove()))
       val.updateToClient(pid);
   
       if(!(show_draws)){
