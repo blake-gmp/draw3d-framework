@@ -88,5 +88,5 @@ local function onPacketHandler(packet)
 }
 
 addEventHandler("onPacket", onPacketHandler);
-
+print("Draws3d System by heisenberg/blake loaded...");
 //-------------------------//
